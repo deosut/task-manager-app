@@ -1,0 +1,14 @@
+@import "/src/styles/variables";
+@import "/src/styles/mixins";
+
+.section {
+  height: 100%;
+  overflow: auto;
+  padding: $padding-lg;
+  width: 60vw;
+  margin: auto;
+
+  @include desktop() {
+    width: 90vw;
+  }
+}

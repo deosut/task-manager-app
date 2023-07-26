@@ -1,0 +1,36 @@
+// _variables.scss
+$padding-sm: 5px;
+$padding-md: 10px;
+$padding-lg: 20px;
+
+$margin-sm: 5px;
+$margin-md: 10px;
+$margin-lg: 20px;
+
+$border-radius-sm: 3px;
+$border-radius-md: 5px;
+$border-radius-lg: 10px;
+
+// Define your color variables
+$color-primary: #007bff;
+$color-secondary: #00bfff;
+$color-white: #fff;
+$color-light-gray: #f5f5f5;
+$color-black: #000;
+$color-shadow: #00000044;
+
+$font-family-roboto: "Roboto", sans-serif;
+$font-roboto-light: 300;
+$font-roboto-regular: 400;
+$font-roboto-medium: 500;
+$font-roboto-bold: 700;
+$font-roboto-black: 900;
+
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 20px;
+
+$box-shadow-sm: 2px 2px 4px $color-shadow;
+
+$box-shadow-glow-sm: 0 0 4px $color-primary;

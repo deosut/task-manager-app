@@ -1,0 +1,13 @@
+@import "../styles/variables";
+
+.header {
+  display: flex;
+  height: 48px;
+  background-color: $color-secondary;
+  align-items: center;
+  color: $color-white;
+  padding: $padding-md;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}

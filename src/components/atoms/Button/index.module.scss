@@ -1,0 +1,23 @@
+@import "/src/styles/variables";
+
+.button {
+  padding: $padding-md;
+  background-color: $color-primary;
+  border-radius: $border-radius-sm;
+  outline: none;
+  border: none;
+  letter-spacing: 0.1rem;
+  color: $color-white;
+  box-shadow: $box-shadow-sm;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-secondary;
+  }
+  &:active {
+    outline: 1px dotted $color-black;
+  }
+  &:focus {
+    outline: 1px dotted $color-black;
+  }
+}
