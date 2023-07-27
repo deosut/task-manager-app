@@ -1,0 +1,13 @@
+@import 'variables';
+
+body {
+  font-size: $font-size-lg;
+  font-family: $font-family-roboto;
+  font-weight: $font-roboto-regular;
+  margin: 0px;
+}
+
+button {
+  background-color: $color-primary;
+  color: white;
+}

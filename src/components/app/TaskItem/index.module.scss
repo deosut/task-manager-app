@@ -1,0 +1,34 @@
+@import "/src/styles/variables.scss";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid $color-light-gray;
+  border-radius: $border-radius-md;
+  padding: $padding-lg;
+  margin-bottom: $margin-md;
+  box-shadow: $box-shadow-sm;
+}
+
+.title {
+  font-size: $font-size-lg;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  margin: 0;
+  font-size: $font-size-md;
+  font-weight: lighter;
+  margin-top: $padding-md;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: $margin-sm;
+}
