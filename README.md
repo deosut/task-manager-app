@@ -2,6 +2,9 @@
 
 The Task Management App is a simple web application built using React, TypeScript, and Next.js. It allows users to create, edit, mark as complete, and delete tasks, providing an organized way to manage their tasks effectively.
 
+## Demo
+Visit https://task-manager-app-gold.vercel.app/tasks
+
 # Getting Started
 ## Prerequisites
 Make sure you have the following tools installed:
